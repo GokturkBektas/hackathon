@@ -1,0 +1,60 @@
+.Rectangle{
+    position: absolute;
+    width: 327px;
+    height: 42px;
+    left: 24px;
+    top: 93px;
+
+    background: #3A3F47;
+    border-radius: 16px;
+
+}
+.ellipse {
+    position: absolute;
+    left: 89.65%;
+    right: 6.31%;
+    top: 13.05%;
+    bottom: 85.1%;
+    border-radius: 50%;
+    border: 2px solid #67686D;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.line_181{
+position: absolute;
+left: 88%;
+
+top: 14.70%;
+bottom: 84.98%;
+
+border: 2px solid #67686D;
+transform: matrix(-1, 0, -3, 2, 1, 1);
+}
+.search{
+    position: absolute;
+    width: 284.52px;
+    height: 21px;
+    left: 48.7px;
+    top: 104px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #67686D;
+}
+.box{
+    position: absolute;
+width: 144.61px;
+height: 210px;
+left: 34.06px;
+top: 156px;
+
+background: url(image.png);
+border-radius: 16px;
+}
